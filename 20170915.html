@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weekly#2</title>
+</head>
+<body>
+
+
+<fieldset>
+	<fieldset>
+    	<p><h4>세미나정보</h4><br>
+        1.주제 : 차세대 웹 표준기술 HTML<br>2.일정 : 5월 12일 14:00~17:00<br>3.장소:공학관 2층 세미나실<br>4.인원: 선착순 100<br>5.비용: 본교 학생 무료(외부 참가자 5,000원)<br>6.참가신청:아래 양식에 빠짐없이 기입하여 접수해 주세요</p>
+    </fieldset>
+    <p><h4>개인정보</h4><br>
+    이름:	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "text" name="name"><br>
+    비밀번호:<input type = "password" name="pass">(수정시 필요)
+    </p>
+    <p><h4>참가정보</h4><br>
+    <fieldset>
+    	<legend>참가 유형 선택</legend><br>
+        <input type = "radio" name = "pay" value = "unpayable">무료(교내참가자)
+        <input type = "radio" name = "pay" value = "payable">유료(교외참가자)
+    
+    </fieldset>
+    <p>
+    <fieldset>
+    	<legend>관심 분야 선택</legend><br>
+        <input type = "radio" name = "interest" value = "one">HTML5 시맨틱
+        <input type = "radio" name = "interest" value = "two">CSS3
+        <input type = "radio" name = "interest" value = "three">Web Storage
+        <input type = "radio" name = "interest" value = "four">Web Socket
+        <input type = "radio" name = "interest" value = "five">Canvas
+        <input type = "radio" name = "interest" value = "six">Geolocation        
+    </fieldset>
+    <p><h4>선택사항</h4><br>
+    <form action="""">
+    직업&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name = "jobs">
+    	<option value = "가까운 분야 선택"selected>가까운 분야 선택</option>
+        <option value = "가까운 분야 선택">학생</option>
+        <option value = "가까운 분야 선택">웹개발</option>
+        <option value = "가까운 분야 선택">웹디자인</option>
+        <option value = "가까운 분야 선택">교육관련</option>
+        <option value = "가까운 분야 선택">기타</option>
+    </select>    
+    </form>
+    <form name="input" action = "feedback.jsp" method = "post">
+    남길말씀<textarea name = "feedback" row="5"cols="50"></textarea><br/>
+    
+    </form>
+    <hr />
+    <button type = "button" onclick = "alert('접수하기')">접수하기</button>
+    <button type = "button" onclick = "alert('다시쓰기')">다시쓰기</button>
+</fieldset>    
+
+
+
+</body>
+</html>
