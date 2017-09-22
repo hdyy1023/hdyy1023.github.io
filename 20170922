@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<title>My homepage</title>
+    <style>
+    
+    li{display: inline;padding:10px;}
+   ul{
+   padding-left:0px;
+   background-color:black;
+   }
+   a:link{
+   		
+    	text-decoration: none;
+        color:gray;
+        }
+   a:visited{
+   		text-decoration: none;
+        color:gray;
+        }
+    a:hover{
+    	text-decoration: none;
+        color:white;
+        
+        }
+    </style>
+</head>
+
+<body>
+	<ul>
+    <li><a href = "https://github.com/">+누구?</a></li>
+    <li><a href = "https://github.com/">검색</a></li>
+    <li><a href = "https://github.com/">이미지</a></li>
+    <li><a href = "https://github.com/">지도</a></li>
+    <li><a href = "https://github.com/">Play</a></li>
+    <li><a href = "https://github.com/">YouTube</a></li>
+    <li><a href = "https://github.com/">뉴스</a></li>
+    <li><a href = "https://github.com/">Gmail</a></li>
+    <li><a href = "https://github.com/">드라이브</a></li>
+    <li><a href = "https://github.com/">캘린더</a></li>
+	</ul>
+
+</body>
+</html>
