@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weekly-2</title>
+</head>
+<body>
+    <script>
+        var x,input;
+        input = prompt("숫자를 입력","0");
+        x = parseInt(input);
+
+        
+        if(x%10 == div(x)){
+            document.write(x+"  : 같음")
+        }
+        else document.write(x+" : 다름")
+
+        function div(x){
+            if(x<10) return x;
+            return div(parseInt(x/10));
+        }
+   
+     
+
+</script>
+
+
+
+</body>
+</html>
