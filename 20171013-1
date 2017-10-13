@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weekly-1</title>
+</head>
+<body>
+    <script>
+        document.write("<h1>별문자출력하기</h1>");
+        document.write("<hr>");
+        var star;
+        var input;
+        input = prompt("정수를 입력하세요","정수만 가능합니다") 
+        star = parseInt(input);
+        if(isNumber(input)){
+            for (var i = 1; i <= star; i++) {  
+            
+            
+
+            for (var j = 1; j <= i; j++) { 
+                document.write("*");
+            }document.write("<br/>")
+            }
+        
+            
+        } 
+        else document.write("입력 오류입니다")   
+        function isNumber(s) {
+  s += ''; // 문자열로 변환
+  s = s.replace(/^\s*|\s*$/g, ''); // 좌우 공백 제거
+  if (s == '' || isNaN(s)) return false;
+  return true;
+}
+       
+   
+     
+
+</script>
+
+    </script>
+
+
+</body>
+</html>
